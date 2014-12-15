@@ -1,0 +1,8 @@
+D:\GitHub2\ElementaryAbsence\ElementaryAbsence\bin\Debug\ElementaryAbsence.dll
+D:\GitHub2\ElementaryAbsence\ElementaryAbsence\bin\Debug\ElementaryAbsence.pdb
+D:\GitHub2\ElementaryAbsence\ElementaryAbsence\obj\Debug\ElementaryAbsence.MainForm.resources
+D:\GitHub2\ElementaryAbsence\ElementaryAbsence\obj\Debug\ElementaryAbsence.OpeningEditForm.resources
+D:\GitHub2\ElementaryAbsence\ElementaryAbsence\obj\Debug\ElementaryAbsence.Properties.Resources.resources
+D:\GitHub2\ElementaryAbsence\ElementaryAbsence\obj\Debug\ElementaryAbsence.csproj.GenerateResource.Cache
+D:\GitHub2\ElementaryAbsence\ElementaryAbsence\obj\Debug\ElementaryAbsence.dll
+D:\GitHub2\ElementaryAbsence\ElementaryAbsence\obj\Debug\ElementaryAbsence.pdb
