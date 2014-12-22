@@ -41,6 +41,13 @@ namespace ElementaryAbsence
                 new OpeningEditForm().ShowDialog();
             };
 
+            FeatureAce UserPermission = FISCA.Permission.UserAcl.Current[Permissions.小學請假天數];
+            if (UserPermission.Editable || UserPermission.Viewable)
+                K12.Presentation.NLDPanels.Student.AddDetailBulider(new FISCA.Presentation.DetailBulider<DetailForm>());
+
+            Catalog detail1 = RoleAclSource.Instance["學生"]["資料項目"];
+            detail1.Add(new DetailItemFeature(Permissions.小學請假天數, "1~6年級請假天數"));
+
             Catalog permission1 = RoleAclSource.Instance["班級"]["功能按鈕"];
             permission1.Add(new RibbonFeature(Permissions.ElementaryAbsence, "請假天數輸入"));
             Catalog permission2 = RoleAclSource.Instance["教務作業"]["功能按鈕"];

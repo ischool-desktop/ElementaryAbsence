@@ -21,5 +21,8 @@ namespace ElementaryAbsence
         {
             get { return FISCA.Permission.UserAcl.Current[ElementaryAbsence開放設定].Executable; }
         }
+
+        public static string 小學請假天數 { get { return "ElementaryAbsence.Detail"; } }
+
     }
 }
